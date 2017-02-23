@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:card_view="http://schemas.android.com/tools"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorTiles"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/arrow" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/img_back_container"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/banner_job"
+            android:padding="@dimen/padding_normal"
+            android:shadowColor="#cecece"
+            android:layout_gravity="center|center_vertical"/>
+
+        <TextView
+            android:id="@+id/text_view_header_name_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Swash App"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_item_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:textColor="@color/black"
+                android:text="Position Name:"
+                android:padding="8dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_item_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/black"
+                android:text="Technical Arcitect/Project Manager"
+                android:textStyle="normal" />
+
+            <!-- <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="150dp"
+                 android:background="@color/grey">-->
+
+
+            <!--</RelativeLayout>-->
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/black"
+                android:text="Job Code: SCTL-2016/TA-11-101"
+                android:textStyle="normal" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_iteasd"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Experience: 6 - 10 years"
+                android:textStyle="normal" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_item"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Job Location: Bhubaneswar"
+                android:textStyle="normal" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/row_item_skills"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Skills: Project Management, Project Scheduling, Cost Estimation, Execution, Project Monitoring. "
+                android:textStyle="normal" />
+
+            <android.support.v7.widget.AppCompatTextView
+
+                android:layout_marginTop="20dp"
+                android:id="@+id/row_item_job_descrification"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Job Description: "
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_marginTop="0dp"
+                android:id="@+id/row_item1"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Essential Skills / Requirements"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="@color/black"
+                    android:id="@+id/row_item_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="Organize, prioritize, and manage multiple projects and programs."
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_vssdfiews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_likesdadsdds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="@color/black"
+                    android:id="@+id/row_item_nts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="Make persuasive presentations on complex topics to top management, public groups and/or boards, and employees.
+This position requires a bachelors degree and at least 6 years of experience in the fields of project management, planning, architecture, or construction management. "
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_itesdsfdsfs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="@color/black"
+                    android:id="@+id/row_ite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="Ability to lead project and meet deadline and
+Ability to plan and successfully implement strategies"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:visibility="gone"
+                    android:id="@+id/row_it"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:text="Posted Today"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_items"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_item_cts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:paddingLeft="8dp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:gravity="center"
+                        android:id="@+id/apply_mode"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:fontFamily="san-serif"
+                        android:paddingLeft="0dp"
+                        android:text="Apply"
+                        android:background="@color/app_theme_yellow"
+                        android:textStyle="bold"
+                        android:layout_weight="0.07"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

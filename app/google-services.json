@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "550994537780",
+    "firebase_url": "https://swashconvergence-153105.firebaseio.com",
+    "project_id": "swashconvergence-153105",
+    "storage_bucket": "swashconvergence-153105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550994537780:android:e1500e9d811b4022",
+        "android_client_info": {
+          "package_name": "com.swashconvergence.apps.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550994537780-idnfivs8j5o5chq9n5eebfftihh247g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApVaQUPYe6oto4dZbJL1EMg-BbvIc9SPk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

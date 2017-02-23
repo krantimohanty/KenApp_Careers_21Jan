@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:contentInsetLeft="0dp"
+        app:elevation="6dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+   <include layout="@layout/button"/>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs_c"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        app:tabPaddingTop="2dp"
+        app:tabTextColor="@color/grey"
+        app:tabSelectedTextColor="@color/colorPrimaryDark"
+        app:tabTextAppearance="@style/AppTabTextAppearance"
+        android:background="@drawable/tab_background"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_c"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/tabs_c"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

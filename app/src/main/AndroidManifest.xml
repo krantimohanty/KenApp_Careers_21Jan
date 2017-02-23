@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swashconvergence.apps.user">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:windowSoftInputMode="stateHidden"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!--<activity-->
+        <!--android:name="com.kenplayschool.WelcomeActivity"-->
+        <!--android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+
+        <activity android:name="com.swashconvergence.apps.user.DashboardActivity" />
+        <activity android:name="com.swashconvergence.apps.user.LoginActivity" />
+        <activity android:name="com.swashconvergence.apps.user.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity android:name="com.swashconvergence.apps.user.MainActivity" />-->
+        <activity android:name="com.swashconvergence.apps.user.RegistrationActivity" />
+        <activity android:name="com.swashconvergence.apps.user.Form1Activity" />
+        <activity android:name="com.swashconvergence.apps.user.FormMainActivity" />
+        <activity android:name="com.swashconvergence.apps.user.NewAddressActivity" />
+        <activity android:name="com.swashconvergence.apps.user.AppliedActivity" />
+        <activity android:name="com.swashconvergence.apps.user.Form2Activity" />
+        <activity android:name="com.swashconvergence.apps.user.ProfileActivity" />
+        <activity android:name="com.swashconvergence.apps.user.ProfileScreenXMLUIDesign" />
+        <activity android:name="com.swashconvergence.apps.user.WelcomeActivity" />
+        <activity android:name="com.swashconvergence.apps.user.NEFT" />
+        <activity android:name="com.swashconvergence.apps.user.NewAddress_Comp"></activity>
+
+        <activity android:name="com.swashconvergence.apps.user.JobOpenActivity" />
+        <activity android:name="com.swashconvergence.apps.user.OpeningsPMActivity" />
+        <activity android:name="com.swashconvergence.apps.user.OpeningsAndroidActivity" />
+        <activity android:name="com.swashconvergence.apps.user.OpeningsTesterActivity" />
+
+        <activity android:name="com.swashconvergence.apps.user.JobDetailsPMActivity" />
+        <activity android:name="com.swashconvergence.apps.user.JobDetailsAndroidActivity" />
+        <activity android:name="com.swashconvergence.apps.user.JobDetailsTesterActivity" />
+        <activity
+            android:name="com.swashconvergence.apps.user.EnquiryActivity"
+            android:label="@string/title_activity_enquiry"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.swashconvergence.apps.user.CreateEnquiryActivity"
+            android:label="@string/title_activity_enquiry_detail"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.swashconvergence.apps.user.EnquiryDetailActivity"></activity>
+    </application>
+
+</manifest>

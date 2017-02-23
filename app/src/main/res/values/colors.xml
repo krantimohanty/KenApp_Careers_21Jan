@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SwashApps -->
+    <color name="colorTiles">#FFAF0A</color>
+    <color name="colorPrimary">#ff9800</color>
+    <color name="colorPrimaryDark">#ff9800</color>
+    <color name="colorAccent">#ff9800</color>
+    <color name="bg_button_login">#ff9800</color>
+    <color name="colorNavigrationBar">#ffffff</color>
+    <color name="accent_color">#ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="dark">#424242</color>
+    <color name="dark_grey">#616161</color>
+    <color name="grey">#B1AFAE</color>
+    <color name="tab_border">#a7a7aa</color>
+    <color name="tab_background">#f6f6f7</color>
+    <color name="darkred">#FFCC0000</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#2278d4</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#d1395c</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#93c6fd</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#f98da5</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="check_out_bg">#F5F5F5</color>
+    <color name="transparent_other">#66000000</color>
+    <color name="header_color">#FBAE2E</color>
+
+    <!--<color name="grey">#a9a9a9</color>-->
+    <color name="grey_dark">#202020</color>
+    <color name="grey_light">#ededed</color>
+    <color name="color_blue">#2196F3</color>
+
+    <!--<color name="white">#FFFFFF</color>-->
+    <color name="black">#000000</color>
+    <color name="red">#cc0909</color>
+    <color name="red_checkout">#e11349</color>
+    <color name="white_transparent">#D9FFFFFF</color>
+    <color name="green">#A4BB25</color>
+    <color name="orange">#FD8607</color>
+    <color name="dot_active">#545454</color>
+    <color name="dot_inactive">#B6BDBF</color>
+    <color name="left_nav_bar_color">#898989</color>
+    <color name="goldtag_bg_color">#EAC468</color>
+    <color name="platinumtag_bg_color">#75CFD3</color>
+    <color name="premiumtag_bg_color">#35BCA5</color>
+    <color name="free_trial_bg_color">#dd2323</color>
+    <color name="silvertag_bg_color">#A8A8A8</color>
+    <color name="slider_footer_bg_color">#001521</color>
+    <color name="btn_bg_color">#007AFF</color>
+    <color name="app_theme_yellow">#FBAE3C</color>
+    <color name="app_theme_blue">#048BCD</color>
+    <color name="app_theme_green">#70B74E</color>
+    <color name="progressdialog_transparent">#10a42424</color>
+    <color name="grey_bg">#eeeeee</color>
+    <color name="color_dark">#212121</color>
+
+    <color name="blue">#0d70e0</color>
+
+
+    <color name="light_grey">#eeeeee</color>
+
+</resources>

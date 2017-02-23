@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Profile Details"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Academic Information"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Highest Qualification"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/grey"/>
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/highest_qualification"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/location_type"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Customer Profile Detail"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Occupation"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/grey"/>
+            <android.support.v7.widget.AppCompatSpinner
+
+                android:id="@+id/occupation"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/location_type"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/name"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Applicant Name"
+                android:textColorHint="@color/grey"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="If salaried then provide the below details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_head"
+                android:textColor="@color/darkred"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/name_company"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name of the company"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_marginTop="7dp"
+                android:fontFamily="san-serif"
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/text_head"/>
+            <android.support.v7.widget.AppCompatSpinner
+
+                android:id="@+id/company_type"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/date_joined"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Date Joined"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_marginTop="7dp"
+                android:fontFamily="san-serif"
+                android:inputType="text"
+                android:drawablePadding="16dp"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/text_head"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Phone"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_marginTop="7dp"
+                android:fontFamily="san-serif"
+                android:inputType="phone"
+                android:drawablePadding="16dp"
+                android:textColorHint="@color/grey"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/cellular"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Cellular"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_marginTop="7dp"
+                android:fontFamily="san-serif"
+                android:inputType="phone"
+                android:drawablePadding="16dp"
+                android:textColorHint="@color/grey"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email Id"
+                android:background="@drawable/edt_bg_selector"
+                android:layout_marginTop="7dp"
+                android:fontFamily="san-serif"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="16dp"
+                android:textColorHint="@color/grey"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KYC Details"
+                android:textSize="14dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="(Please attach the necessary documents as address and id proof)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_head"
+                android:textColor="@color/darkred"/>
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/pan"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/location_type"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/address_proof"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:entries="@array/location_type"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/homehover2"
+        title="Home"
+        font="san_serif"
+        inActiveColor="#2196F3"
+        activeColor="#f15a29"
+        barColorWhenSelected="#FFFFFF"
+        badgeBackgroundColor="#565759"/>
+    <tab
+        id="@+id/tab_career"
+        icon="@drawable/careers"
+        title="Career"
+        font="san_serif"
+        inActiveColor="#2196F3"
+        activeColor="#f15a29"
+        barColorWhenSelected="#FFFFFF"
+        badgeBackgroundColor="#565759"/>
+    <tab
+        id="@+id/tab_offers"
+        icon="@drawable/offering"
+        title="Offers"
+        font="san_serif"
+        inActiveColor="#2196F3"
+        activeColor="#f15a29"
+        barColorWhenSelected="#FFFFFF"
+        badgeBackgroundColor="#565759"/>
+</tabs>
